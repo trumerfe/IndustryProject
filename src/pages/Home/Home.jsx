@@ -6,7 +6,6 @@ import Card from "../Card/Card"
 const Home = () => {
   return (
     <main>
-      <h1>Awesome Player Library!</h1>
       <Card />
     </main>
   )

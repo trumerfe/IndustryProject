@@ -1,7 +1,13 @@
+import "./Card.scss";
+import HeatLogo from "../../assets/logos/Heat.svg";
+import BamAdebayo from "../../assets/PlayerPics/BamAdebayo.png"
+
 const Card = () => {
   return (
-    <div>Card</div>
-  )
-}
+    <main className="teamMain">
+      <img src={BamAdebayo} alt="" className="teamMain__pic" />
+    </main>
+  );
+};
 
-export default Card
+export default Card;

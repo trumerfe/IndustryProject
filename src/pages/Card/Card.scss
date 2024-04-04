@@ -1,1 +1,16 @@
-@use './partials/globals' as *;
+@use '../../partials/globals' as *;
+@use '../../partials/variables' as *;
+
+.teamMain {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 0;
+
+  &__pic {
+    position: relative;
+    right: 135px;
+    top: 24px;
+    height: 920px;
+  }
+}
