@@ -1,5 +1,10 @@
 import "./PlayerInfoSmall.scss";
 import { useState } from "react";
+import Back from '../../assets/Icons/back.svg'
+import { Link } from "react-router-dom";
+import Forward from '../../assets/Icons/forward.svg'
+import ForwardRed from '../../assets/Icons/forwardRed.svg'
+
 
 const PlayerInfoSmall = (props) => {
 
@@ -16,10 +21,13 @@ const PlayerInfoSmall = (props) => {
 
   return (
     <section className="smallInfoDiv">
-      <button onClick={handleReelClick} className="smallInfoDiv__placeholderNext">Next</button>
+      <button onClick={handleReelClick} className="smallInfoDiv__placeholderNext"><img src={ForwardRed} alt="Forward Arrow" /></button>
       <div className="smallInfoDiv__bar">
         <div className="smallInfoDiv__progress" style={{backgroundColor: playerInfo.mainColor}}></div>
       </div>
+      <Link to={`/team/${props.team}`} className="smallInfoDiv__backButton">
+        <img src={Back} alt="Back Arrow" />
+      </Link>
       <p className="smallInfoDiv__number" style={{color: '#9C9C9C'}}>{playerInfo.number}</p>
       <p className="smallInfoDiv__name">{playerInfo.name}</p>
       <p className="smallInfoDiv__lastName">{playerInfo.lastName}</p>

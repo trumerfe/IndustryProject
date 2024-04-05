@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="topBar"></div>
       <Routes>
-        <Route path="/player/:playerName" element={<Card player={team.players[2]} />} />
+        <Route path="/:team/:playerName" element={<Card player={team.players[2]} />} />
         <Route path="/team/:teamName" element={<Team team={team} />} />
       </Routes>
     </BrowserRouter>

@@ -1,6 +1,7 @@
 import "./Team.scss";
 import upload from "../../assets/Icons/gg_search.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Team = (props) => {
 
@@ -46,13 +47,15 @@ const Team = (props) => {
               src={item.pic}
               alt="player picture"
             />
-            <p className="team__playerName">{item.name}</p>
+            <p className="team__playerName">{item.name} {item.lastName}</p>
             <p className="team__playerInfo">{`#${item.number} | ${item.position}`}</p>
             <button
               className="team__playerButton"
               style={{ backgroundColor: props.team.color1 }}
             >
+              <Link className="team__playerLink" to={`/${props.team.team}/${item.name}`}>
               PLAYER STATS
+              </Link>
             </button>
           </div>
         ))}
