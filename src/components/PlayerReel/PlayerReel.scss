@@ -9,6 +9,7 @@
   height: 100%;
   margin-top: auto;
   box-sizing: border-box;
+  align-items: center;
 
   &__bar {
     width: 90%;
@@ -31,9 +32,8 @@
   &__reelPlaceholder {
     object-fit: fill;
     overflow: hidden;
-    height: 86%;
     position: relative;
-    right: 800px;
+    height: 109%;
   }
 
   &__placeholderBack {
@@ -44,5 +44,28 @@
     left: 32px;
     top: 500px;
     z-index: 2;
+  }
+
+  &__button {
+    position: absolute;
+    top: 83%;
+    height: 64px;
+    width: 150px;
+    margin: 24px 32px 0 32px;
+    border-radius: 11px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @include button;
+  }
+
+  &__div {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
   }
 }

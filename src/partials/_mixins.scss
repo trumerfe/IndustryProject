@@ -50,3 +50,31 @@
   font-size: 1.125rem;
   color: white;
 }
+
+@mixin teamName {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 1.9375rem;
+  color: white;
+}
+
+@mixin formLabel {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+}
+
+@mixin smallName {
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: black;
+}
+
+@mixin smallInfo {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 0.625rem;
+  color: black;
+}

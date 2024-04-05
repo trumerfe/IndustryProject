@@ -1,0 +1,186 @@
+[
+  {
+    "team": "HORNETS",
+    "color1": "#008CA8",
+    "color2": "#1D1160",
+    "logo": "https://s3-alpha-sig.figma.com/img/c2f6/82d0/f1923a6b7cd19a8033c57f8aeb05be6b?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BaBo6XMhyyuZc7qH7b3vvZQ-Nm2Mrhyplf3zSim21B-KZSSLYxolcNqmyNGv6YHWokaQkD5FKcaBf5FMVjO5PSm0lkzdjYorXBrOlP33WxmdcwOh~znZPGma~t~-9mruDiNLr59JsXJ50oOzET-sHjtfj~5OZ4dCGeCieFLvIicgKY6EZnKkQF6~bhwp12~VQ5Q5TbNILkcRcDRRtv1lHevDj1P5yCYoBOs2ROsvNcriWW8JKGD6ztnfuW~BzIA91-tHVvPM1vYbWlGjaWrnu9qw9El4QvmEY0kJ1a0P6KPw~cE~TCwnxh6-YmT08xlU1i6aLpXY6ACMYD-fFK~4YA__",
+    "players": [
+      {
+        "name": "LEAKY",
+        "lastName": "BLACK",
+        "position": "FORWARD",
+        "number": "12",
+        "mainColor": "#00788C",
+        "pic": "https://s3-alpha-sig.figma.com/img/7998/fa6c/9b4a9c410d4c168722957cfe999476c2?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JCkYRo9F35OF0pP99YJCj6WdrK3YXqhF2AKO~n3hLWZPdvbqCwZH0uMb5FNM3iTiN-4bf0XCsI~F4wkMhS~gOFRlNqkwZybVdIMm3z-ZfyTYmsY9925V5J9jsDahnJ6ii~ucJ4MFGCWYu4y4nlrJ0XmsoXxCS5yOoxIR86B-LdtKpHBpwekG1W6wG2QoZT6aUJCh8zKJKSvb3~2SV482DRXUEVSSGa2uAvEGl6r85Gbi5VczU4q82mqEMS4MzoR0M9xD8pYumWmKvTsfSHr1NlfO0x5iEaNyJHeqilZOMCmB-zG2Afgd7DK629pVKQJWtbePnURIj5VAbFu8kKcK1w__",
+        "personalStats": {
+          "height": "6'6",
+          "weight": "209 lbs",
+          "age": "24",
+          "yearsPro": "R",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "23",
+          "ppg": "2.3",
+          "rpg": "1.7",
+          "apg": "0.8"
+        }
+      },
+      {
+        "name": "LAMELO",
+        "lastName": "BALL",
+        "position": "GUARD",
+        "number": "1",
+        "mainColor": "#00788C",
+        "pic": "https://s3-alpha-sig.figma.com/img/2dda/7e83/0f4465a10343dbd92e771bdeff5b5052?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZgGI6HrL-VWEi2K9S6MqSdSDnvZs6vnlzXCdMlcjpWj75LMOC-YCjNfLdTlroiUuXjPdA6daR1KaKFJMU3ijsJ~GgxQU4HIO38XEQSleztPcNU57U0PCJqg~WL0FdcvJfTSAQ22ysUy7wai8u0Oi4teDnKbw5i15wMtfi4F9YbiNG4GwKMdvdgbxieOSCeiLjehJnMIsNnAjfLVTdDyi9RZDlpvKGqaQphVf6NEjMoYwOVoDinbJBVCyOwCfWySGB95VlXiXFYJCwQ9jBEFJQSrAgGMsSFdd4tc21VqgnZdj-zI3GrRoeT0PL47Yc6ZSo3pSTps7qVgNfZbzCjd92Q__",
+        "personalStats": {
+          "height": "6'7",
+          "weight": "180 lbs",
+          "age": "22",
+          "yearsPro": "3",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "22",
+          "ppg": "23.9",
+          "rpg": "5.1",
+          "apg": "8"
+        }
+      },
+      {
+        "name": "MILES",
+        "lastName": "BRIDGES",
+        "position": "FORWARD",
+        "number": "0",
+        "mainColor": "#00788C",
+        "pic": "https://s3-alpha-sig.figma.com/img/f8b2/64ff/2d0236aa18783ffbe90f71f1ed320a73?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UoGMd5VR1koM46gXtpp0h1MAep6zaIl3x5rheaOQ2A1nHNcW4tjEhIDiqXoak01~VtNYHNPscPbsxJA2oA8qdO1RDqtcF8fksleJiqO4r0TM5ore~~h3fm8du4ul6f07ZUOz9TM0zWTJRf5qKnQg9SsCbBw0UhHdF7beF8LkyTqBgRmN63-PN5mO--HJccXVGeZcsdxHlfPXV0zIPL~FVN8f4-R1RNaTbSztil2n7tcRdcXsRQUx2B5r0Dau~fj90mcuaTpBM1uD4IkT9XcSoOnFOg8i8fCeHV7y-HksslsUoFrlpiGKWgOu~ocmpS6vUqgdLIzGNyTr-K76W4Hniw__",
+        "personalStats": {
+          "height": "6'7",
+          "weight": "225 lbs",
+          "age": "26",
+          "yearsPro": "4",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "64",
+          "ppg": "21.4",
+          "rpg": "7.5",
+          "apg": "3.4"
+        }
+      },
+      {
+        "name": "BRANDON",
+        "lastName": "MILLER",
+        "position": "FORWARD",
+        "number": "24",
+        "mainColor": "#00788C",
+        "pic": "https://s3-alpha-sig.figma.com/img/d762/468e/8249eb2c382e1920f149859170384a50?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LxusmlZ2dOTYxZddVhHCBO7X-egHBw8XtErKe~Q2kwC8nb7xn4CoCR3k6B6wL4-ZZLKOKeKaTLp9PL3p4mevHBuE-Gr3IRsOHWoXU3~rVIX-xjGEhXYKgc2klDXIEzG6UBukTBQGTntWgO~qeCOOz0TFfg~Pn~YgSkXVQhsw7E~C0nl1uokiTTen10NXRWDCSLL4L0DFehCcb~DB~q9dxWDmWPPyZfYL2kYw2tdAau6ksYXZc-rjnM0t7DyqsSC2i-ak3QwOYR3bNsZwwJSvW5JbsuN6r~L9L4z9VkUApYyS2vfQ3mr0X5bNtR6G0a6tRikKEHlA0Ku4SuIN7cyuhw__",
+        "personalStats": {
+          "height": "6'7",
+          "weight": "200 lbs",
+          "age": "21",
+          "yearsPro": "R",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "69",
+          "ppg": "17.1",
+          "rpg": "4.3",
+          "apg": "2.4"
+        }
+      }
+    ]
+  },
+  {
+    "team": "WIZARDS",
+    "color1": "#002B5C",
+    "color2": "#E31837",
+    "logo": "Test",
+    "players": [
+      {
+        "name": "DENI",
+        "lastName": "AVDIJA",
+        "position": "CENTER-FORWARD",
+        "number": "8",
+        "mainColor": "#002B5C",
+        "pic": "https://s3-alpha-sig.figma.com/img/e244/1a82/166ada904126f75ff9e0ba7d27a69b1f?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JH4oi8jcUe-FH3Ma5K7BYEZTa~guKRJ~T86SpIs8dBxrn5pFoc7vxKUVFQzUGS8-gatPHbf4LY11a3bTLWac97IiWTGcvzdJVwhnIn7LZh-aAZ~trqxv-wIz9sQ0e9lErLDON~DyZQOROAuoa~WnLqEWqHsxKFWTck37wbKBwhKvJWphd106JJexdpBq9Sv9MRv-~RyL1eayL9Ld5UILa-ohNQSeI4DvliE8tWMB5UjCHRyLaWcqhI3PzyYJVAwi5PZRWezBJ7roG2ZoLsNWgxCt-DXaPv4GIljgwM7qBXIbOsbYG3FZk9fimHVcivhEVqN7y-2kY~64RmchWl0OLg__",
+        "personalStats": {
+          "height": "6'9",
+          "weight": "210 lbs",
+          "age": "23",
+          "yearsPro": "5",
+          "country": "ISRAEL"
+        },
+        "gameStats": {
+          "games": "70",
+          "ppg": "14.3",
+          "rpg": "7.1",
+          "apg": "3.8"
+        }
+      },
+      {
+        "name": "JOHNNY",
+        "lastName": "DAVIS",
+        "position": "GUARD",
+        "number": "1",
+        "mainColor": "#002B5C",
+        "pic": "https://s3-alpha-sig.figma.com/img/0f2a/53c2/9b0d865e096ce40aab91a811fab919bc?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CIkDsstXAR~PKK-2FJOaJQbRnUieXMPo-FGQcNWl1eNoJFDNjr9GT~3JvHCnM38Ug2~hZUAnAqLBd6Dey5PttCScgMkKlvF9D1doI~pB--SSgKu-8-VYUoqfZg10h6OdLr6-53MdmYm7RyYn1XFfYk6wVct~JEgwtet8S2vpLwcOVI03rLMKszze-i8LK7LPmgZxfNc705DvA1s~cIZlUHagR02O4rdiWeWeOb8qcuelFefv2J24jJtBVedYIiYgGzOo5y6Ybq~yDWeyV9zG0pDAXP3TixVL2N0OTlUlbb9EgDJ~m1naBnJQdp8SePSLR6YGu6uHrSWgy40dGq5k1w__",
+        "personalStats": {
+          "height": "6'4",
+          "weight": "195 lbs",
+          "age": "22",
+          "yearsPro": "1",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "45",
+          "ppg": "2.5",
+          "rpg": "1.4",
+          "apg": "0.6"
+        }
+      },
+      {
+        "name": "PATRICK",
+        "lastName": "BALDWIN JR.",
+        "position": "FORWARD",
+        "number": "7",
+        "mainColor": "#002B5C",
+        "pic": "https://s3-alpha-sig.figma.com/img/67bd/2de9/747ac21452b3d9e6c316058b5f6a0856?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QzRObZo7yqf1Nglq~QIeUMs63WZOhtApWQu-9EYt1Yp2uGTBCwAZ2tDsx3dpjfTkGvidNExEO7WvLIGh54wxoqwrmQyq~70YLVrr16xm4XgaD8EMYEkgWGXFfaX~Vg1FleaP9UlP195JsuJjPP45RLZ6URHqtbd7qFChJEWdLPyt5bucitZHn55mSnzuzw4-bSjoJ2OflxOd4RELoiNvOVwGm0FOSzRbBzCZfmauJDExaw8jiCkxVXLHCn22cj6zb5f6zgZc36NKoTlAlR6hvqBu9D9YlEubmDbwXpZbT7cZO9lYDx25~PGs1fVo~sIKJMNli3y6NNBJ03ENHbO5Gw__",
+        "personalStats": {
+          "height": "6'9",
+          "weight": "220 lbs",
+          "age": "21",
+          "yearsPro": "1",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "33",
+          "ppg": "3",
+          "rpg": "2.6",
+          "apg": "0.6"
+        }
+      },
+      {
+        "name": "ISAIAH",
+        "lastName": "LIVERS",
+        "position": "FORWARD",
+        "number": "12",
+        "mainColor": "#002B5C",
+        "pic": "https://s3-alpha-sig.figma.com/img/4a6f/20e9/ab4f15de7624896e0a056f9a35884eb0?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pWmlfsbfZwNOe~BnYGS6w1wKA4yjBMJYOC-weC2bajK6GxWmgiYofZdrPuZy2--uIBkSD1wx21AGcNWJwD8L8MG8UUV2S~39b~oDWYbRKolsIKLHTVp0YdNbnxH12WehFObtemuQRS9fPIg7X4l6FlvjuVRIFVORrc0Mi3e8yOBY6kJPIzlSjxPJF9iXpN7COrwfysaepnpn07plRef7RIrWkUlqyK0qm-Bq0-BjvKlgrjIrsTe1ZtCvIrYdbIDMTHE6vs12D48DGdRpGZYpiFHcpm9YB4vzR1mp867ihtZlP0AWIoYh4jOu5uSVfWOQdhzFWHXMYLwQNc5XT5im6A__",
+        "personalStats": {
+          "height": "6'6",
+          "weight": "232 lbs",
+          "age": "25",
+          "yearsPro": "2",
+          "country": "USA"
+        },
+        "gameStats": {
+          "games": "23",
+          "ppg": "5",
+          "rpg": "2.1",
+          "apg": "1.1"
+        }
+      }
+    ]
+  }
+]
