@@ -1,0 +1,95 @@
+@use '../../partials/globals' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+
+.infoDiv {
+  background-color: rgba($color: #000000, $alpha: 0.75);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: auto;
+
+  &__name,
+  &__lastName {
+    margin-top: auto;
+    color: white;
+    z-index: 1;
+    bottom: 100px;
+    margin: 0;
+    margin-left: 32px;
+
+    @include playerName
+  }
+
+  &__name {
+    margin-top: 90px;
+  }
+
+  &__number {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: rgba($color: #ffffff, $alpha: 0.8);
+    @include playerNumber
+  }
+
+  &__position {
+    margin: 5px 0 0 32px;
+    
+    @include playerPosition
+  }
+
+  &__stats1div {
+    // background-color: aqua;
+    width: 50%;
+    margin: 27px 0 0 34px;
+  }
+
+  &__stats1title {
+    @include stats1title;
+    margin: 0;
+    margin-top: 17px;
+  }
+
+  &__stats1value {
+    @include stats1value;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  &__stats2div {
+    width: 95px;
+    height: 275px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba($color: #FFFFFF, $alpha: 0.7);
+    position: absolute;
+    right: 26px;
+    top: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__stats2subdiv {
+    text-align: center
+  }
+
+  &__stats2text {
+    @include stats2text;
+    margin: 0;
+  }
+
+  &__button {
+    background-color: $HeatRed;
+    height: 44px;
+    width: auto;
+    margin: auto 32px 46px 32px;
+    border-radius: 11px;
+    border-style: none;
+
+    @include button;
+  }
+}

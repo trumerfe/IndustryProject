@@ -1,0 +1,65 @@
+[
+  {
+    "name": "BAM",
+    "lastName": "ADEBAYO",
+    "position": "CENTER-FORWARD",
+    "number": "13",
+    "mainColor": "#CE0F2D",
+    "pic": "https://i.postimg.cc/QCqGL3y5/Bam-Adebayo.png",
+    "personalStats": {
+      "height": "6'9",
+      "weight": "255 lbs",
+      "age": "25",
+      "yearsPro": "5",
+      "country": "USA"
+    },
+    "gameStats": {
+      "games": "64",
+      "ppg": "19.7",
+      "rpg": "10.6",
+      "apg": "4"
+    }
+  },
+  {
+    "name": "LEAKY",
+    "lastName": "BLACK",
+    "position": "FORWARD",
+    "number": "12",
+    "mainColor": "#00788C",
+    "pic": "https://i.postimg.cc/fLJV5MBH/Leaky-Black.png",
+    "personalStats": {
+      "height": "6'6",
+      "weight": "209 lbs",
+      "age": "24",
+      "yearsPro": "4",
+      "country": "USA"
+    },
+    "gameStats": {
+      "games": "23",
+      "ppg": "2.3",
+      "rpg": "1.7",
+      "apg": "0.8"
+    }
+  },
+  {
+    "name": "DENI",
+    "lastName": "AVDIJA",
+    "position": "CENTER-FORWARD",
+    "number": "8",
+    "mainColor": "#002B5C",
+    "pic": "https://i.postimg.cc/BZPpNK7G/Deni-Avdija.png",
+    "personalStats": {
+      "height": "6'9",
+      "weight": "210 lbs",
+      "age": "23",
+      "yearsPro": "5",
+      "country": "ISRAEL"
+    },
+    "gameStats": {
+      "games": "70",
+      "ppg": "14.3",
+      "rpg": "7.1",
+      "apg": "3.8"
+    }
+  }
+]

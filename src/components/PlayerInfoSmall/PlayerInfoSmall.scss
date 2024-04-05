@@ -1,0 +1,69 @@
+@use '../../partials/globals' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+
+.smallInfoDiv {
+  background-color: rgba($color: #000000, $alpha: 0.75);
+  display: flex;
+  flex-direction: column;
+  height: 263px;
+  margin-top: auto;
+
+  &__bar {
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: silver;
+    margin: 66px 20px 0 20px;
+    position: absolute;
+    top: 0;
+  }
+
+  &__progress {
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $HeatYellow;
+  }  
+
+  &__name,
+  &__lastName {
+    margin-top: auto;
+    color: white;
+    z-index: 1;
+    bottom: 100px;
+    margin: 0;
+    margin-left: 32px;
+
+    @include playerName
+  }
+
+  &__name {
+    margin-top: 14px;
+  }
+
+  &__number {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: rgba($color: #ffffff, $alpha: 0.3);
+    @include playerNumber
+  }
+
+  &__position {
+    margin: 5px 0 0 32px;
+    
+    @include playerPosition
+  }
+
+  &__button {
+    background-color: $HeatRed;
+    height: 44px;
+    width: auto;
+    margin: 24px 32px 0 32px;
+    border-radius: 11px;
+    border-style: none;
+
+    @include button;
+  }
+}
