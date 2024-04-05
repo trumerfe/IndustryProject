@@ -9,7 +9,7 @@ import Team from "./pages/Team/Team";
 function App() {
   const [team, setTeam] = useState(Data[0]);
 
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
   return (
     <BrowserRouter>
