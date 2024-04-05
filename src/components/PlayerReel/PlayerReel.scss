@@ -1,0 +1,48 @@
+@use '../../partials/globals' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+
+.reel {
+  // background-color: rgba($color: #000000, $alpha: 0.75);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: auto;
+  box-sizing: border-box;
+
+  &__bar {
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: silver;
+    margin: 66px 20px 0 20px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  &__progress {
+    width: 66%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $HeatYellow;
+  }
+
+  &__reelPlaceholder {
+    object-fit: fill;
+    overflow: hidden;
+    height: 86%;
+    position: relative;
+    right: 800px;
+  }
+
+  &__placeholderBack {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 32px;
+    top: 500px;
+    z-index: 2;
+  }
+}

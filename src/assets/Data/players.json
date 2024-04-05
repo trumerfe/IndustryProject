@@ -1,26 +1,5 @@
 [
   {
-    "name": "BAM",
-    "lastName": "ADEBAYO",
-    "position": "CENTER-FORWARD",
-    "number": "13",
-    "mainColor": "#CE0F2D",
-    "pic": "https://i.postimg.cc/QCqGL3y5/Bam-Adebayo.png",
-    "personalStats": {
-      "height": "6'9",
-      "weight": "255 lbs",
-      "age": "25",
-      "yearsPro": "5",
-      "country": "USA"
-    },
-    "gameStats": {
-      "games": "64",
-      "ppg": "19.7",
-      "rpg": "10.6",
-      "apg": "4"
-    }
-  },
-  {
     "name": "LEAKY",
     "lastName": "BLACK",
     "position": "FORWARD",

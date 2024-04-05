@@ -10,8 +10,13 @@ const PlayerInfoSmall = (props) => {
     props.setPageState("infoBig")
   }
 
+  const handleReelClick = (event) => {
+    props.setPageState("reel")
+  }
+
   return (
     <section className="smallInfoDiv">
+      <button onClick={handleReelClick} className="smallInfoDiv__placeholderNext">Next</button>
       <div className="smallInfoDiv__bar">
         <div className="smallInfoDiv__progress" style={{backgroundColor: playerInfo.mainColor}}></div>
       </div>
