@@ -1,16 +1,56 @@
 @use '../../partials/globals' as *;
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 .teamMain {
   height: 100%;
   width: 100%;
   background-color: black;
   z-index: 0;
+  box-sizing: border-box;
+  background-image: url(../../assets/PlayerPics/BamAdebayo.png);  
+  background-repeat: no-repeat;
+  background-position: 45% 45px;
+  background-size: 165%;
+  display: flex;
+  flex-direction: column;
 
-  &__pic {
-    position: relative;
-    right: 135px;
-    top: 24px;
-    height: 920px;
+  &__infoDiv {
+    background-color: rgba($color: #000000, $alpha: 0.69);
+    display: flex;
+    flex-direction: column;
+    height: 263px;
+    margin-top: auto;
+  }
+
+  &__name,
+  &__lastName {
+    margin-top: auto;
+    color: white;
+    z-index: 1;
+    bottom: 100px;
+    margin: 0;
+    margin-left: 32px;
+
+    @include playerName
+  }
+
+  &__name {
+    margin-top: 14px;
+  }
+
+  &__position {
+    margin: 5px 0 0 32px;
+    
+    @include playerPosition
+  }
+
+  &__button {
+    background-color: $HeatRed;
+    height: 44px;
+    width: auto;
+    margin: 24px 32px 0 32px;
+    border-radius: 11px;
+    border-style: none;
   }
 }

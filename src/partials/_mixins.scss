@@ -1,0 +1,17 @@
+@use './variables' as *;
+
+@mixin playerName {
+  font-family: Helvetica;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.6875rem;
+  color: white;
+}
+
+@mixin playerPosition {
+  font-family: Helvetica;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3125rem;
+  color: white;
+}
